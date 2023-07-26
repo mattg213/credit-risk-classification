@@ -10,19 +10,19 @@ The data was imported from csv and put into a Pandas DataFrame.  Then separated 
 
 Evaluated the model's performance by generating a **confusion matrix**:
 
-[[18679    80]
- [   67   558]]
+>[[18679    80]
+> [   67   558]]
 
 and a **classification report**:
 
-              precision    recall  f1-score   support
-
-           0       1.00      1.00      1.00     18759
-           1       0.87      0.89      0.88       625
-
-    accuracy                           0.99     19384
-   macro avg       0.94      0.94      0.94     19384
-weighted avg       0.99      0.99      0.99     19384
+>              precision    recall  f1-score   support
+>
+>           0       1.00      1.00      1.00     18759
+>           1       0.87      0.89      0.88       625
+>
+>    accuracy                           0.99     19384
+>   macro avg       0.94      0.94      0.94     19384
+>weighted avg       0.99      0.99      0.99     19384
 
 ## Results
 
